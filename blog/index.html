@@ -1,0 +1,40 @@
+---
+layout: default
+title: Writing
+section: writing
+description: Notes and essays by Bishal Khand Thakuri on machine learning, fine-tuning, geospatial modelling, and the craft of building ML systems.
+---
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow reveal">Writing</p>
+    <h1 class="reveal" style="--d:.06s">Notes &amp; <em>essays</em></h1>
+    <p class="lead reveal" style="--d:.12s">
+      Working notes on machine learning, fine-tuning, and the systems around them —
+      written as I go, kept here.
+    </p>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="wrap">
+    {%- if site.posts.size > 0 -%}
+    <div class="post-list">
+      {%- for post in site.posts -%}
+      <article class="post-row reveal">
+        <a href="{{ post.url | relative_url }}">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d %b %Y' }}</time>
+          <div class="post-row-body">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.excerpt }}</p>
+          </div>
+          <span class="post-row-arrow" aria-hidden="true">→</span>
+        </a>
+      </article>
+      {%- endfor -%}
+    </div>
+    {%- else -%}
+    <p class="muted">No posts yet — check back soon.</p>
+    {%- endif -%}
+  </div>
+</section>

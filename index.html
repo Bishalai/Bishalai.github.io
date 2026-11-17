@@ -1,0 +1,454 @@
+---
+layout: default
+description: Portfolio of Bishal Khand Thakuri — machine learning engineer and data scientist in Kathmandu, Nepal. Generative AI, computer vision, and applied ML systems.
+---
+
+{%- comment -%} ── Hero ─────────────────────────────────────────────────────── {%- endcomment -%}
+<section class="hero">
+  <canvas class="hero-canvas" data-contour aria-hidden="true"></canvas>
+  <div class="wrap hero-inner">
+
+    <div class="hero-copy">
+      <p class="eyebrow reveal">ML Engineer · Data Scientist · Kathmandu, Nepal</p>
+
+      <h1 class="reveal" style="--d:.08s">Bishal Khand&nbsp;Thakuri</h1>
+
+      <p class="lead reveal" style="--d:.16s">
+        I build and fine-tune <em>machine learning systems</em> — from parameter-efficient
+        LLM and diffusion pipelines to computer vision that turns raw footage into decisions.
+      </p>
+
+      <div class="hero-actions reveal" style="--d:.24s">
+        <a class="btn" href="#work">Selected work</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+
+      <ul class="hero-links reveal" style="--d:.32s">
+        <li>
+          <a href="mailto:thakbishal7@gmail.com">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M2.8 6.4 12 13l9.2-6.6"/></svg>
+            thakbishal7@gmail.com
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Bishalai" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/Bishalai" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <figure class="hero-portrait reveal" style="--d:.2s">
+      <div class="portrait-frame">
+        <img src="{{ '/assets/img/portrait.jpg' | relative_url }}"
+             alt="Portrait of Bishal Khand Thakuri"
+             width="800" height="800" loading="eager">
+      </div>
+      <figcaption>Kathmandu, Nepal</figcaption>
+    </figure>
+
+  </div>
+
+  <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+    <span class="scroll-cue-line" aria-hidden="true"></span>
+    <span class="scroll-cue-label">Scroll</span>
+  </a>
+</section>
+
+{%- comment -%} ── About ────────────────────────────────────────────────────── {%- endcomment -%}
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-num">01</span> About</p>
+      <h2>Engineering first, <em>measured</em> always.</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-prose reveal">
+        <p class="big">
+          I'm a machine learning engineer based in Kathmandu, Nepal. My work sits at the
+          intersection of generative AI and applied computer vision — parameter-efficient
+          fine-tuning of large language and diffusion models, and end-to-end pipelines that
+          cover dataset curation, training, evaluation, and inference.
+        </p>
+        <p>
+          Recent projects include conditioning 3× digital-elevation-model super-resolution
+          on Sentinel-2 imagery across more than 40 sites in High Mountain Asia, and a
+          real-time player-tracking system that turns match footage into tactical insight.
+          I care about systems that are reproducible, benchmarked, and genuinely useful —
+          not demos that only work once.
+        </p>
+        <p>
+          I hold a Bachelor of Computer Engineering from Pulchowk Campus (IOE, Tribhuvan
+          University) and am currently reading for a Master of Data Science at Tribhuvan
+          University. Outside of research I work as an assistant tour leader and trekking
+          guide, play guitar live, and write about the models and systems I build.
+        </p>
+      </div>
+
+      <dl class="facts reveal" style="--d:.12s">
+        <div><dt>Based in</dt><dd>Kathmandu, Nepal</dd></div>
+        <div><dt>Focus</dt><dd>Generative AI · Computer vision</dd></div>
+        <div><dt>Currently</dt><dd>M.Sc. Data Science, Tribhuvan University</dd></div>
+        <div><dt>Previously</dt><dd>B.E. Computer Engineering, Pulchowk Campus</dd></div>
+        <div><dt>Open to</dt><dd>Collaborations &amp; ML engineering roles</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+{%- comment -%} ── Skills ───────────────────────────────────────────────────── {%- endcomment -%}
+<section class="section section-soft" id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-num">02</span> Skills</p>
+      <h2>What I <em>work</em> with</h2>
+    </div>
+
+    <div class="skills">
+      <div class="skill-row reveal">
+        <h3>Languages</h3>
+        <ul class="chips">
+          <li>Python</li><li>C++</li><li>R</li><li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-row reveal">
+        <h3>ML &amp; Deep Learning</h3>
+        <ul class="chips">
+          <li>PyTorch</li><li>Hugging Face Transformers</li><li>Diffusers</li><li>Scikit-learn</li><li>OpenCV</li>
+        </ul>
+      </div>
+      <div class="skill-row reveal">
+        <h3>Generative AI</h3>
+        <ul class="chips">
+          <li>Stable Diffusion</li><li>LoRA / PEFT</li><li>LLM Fine-tuning</li><li>ComfyUI</li>
+        </ul>
+      </div>
+      <div class="skill-row reveal">
+        <h3>Data Engineering</h3>
+        <ul class="chips">
+          <li>NumPy</li><li>Pandas</li><li>Apache Spark</li><li>Kafka</li><li>Redis</li>
+        </ul>
+      </div>
+      <div class="skill-row reveal">
+        <h3>Infrastructure</h3>
+        <ul class="chips">
+          <li>Git / GitHub</li><li>Docker</li><li>Kubernetes</li><li>PostgreSQL</li>
+        </ul>
+      </div>
+      <div class="skill-row reveal">
+        <h3>Soft Skills</h3>
+        <ul class="chips">
+          <li>Communication</li><li>Teamwork</li><li>Time Management</li><li>Problem Solving</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{%- comment -%} ── Selected work ────────────────────────────────────────────── {%- endcomment -%}
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-num">03</span> Selected work</p>
+      <h2>Things I've <em>built</em></h2>
+      <p class="section-intro">Select a project to read the details.</p>
+    </div>
+
+    <div class="projects">
+
+      <article class="project reveal">
+        <button class="project-head" type="button" aria-expanded="false" aria-controls="project-1">
+          <span class="project-index">01</span>
+          <span class="project-main">
+            <span class="project-title">LLM &amp; Stable Diffusion Fine-Tuning with LoRA</span>
+            <span class="project-stack">PyTorch · Hugging Face · PEFT · ComfyUI</span>
+          </span>
+          <span class="project-year">2024 — Present</span>
+          <span class="project-icon" aria-hidden="true"></span>
+        </button>
+        <div class="project-panel" id="project-1">
+          <div class="project-clip">
+            <div class="project-content">
+              <ul class="highlights">
+                <li>Reduced trainable parameters by <strong>over 90%</strong> via LoRA while retaining full task performance on fine-tuned LLMs and Stable Diffusion models.</li>
+                <li>Delivered end-to-end pipelines — dataset curation, training, evaluation, and ComfyUI inference — with systematic rank/alpha sweeps to optimise image fidelity vs. compute cost.</li>
+              </ul>
+              <p class="metric"><span class="metric-value">90%+</span><span class="metric-label">fewer trainable parameters</span></p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <button class="project-head" type="button" aria-expanded="false" aria-controls="project-2">
+          <span class="project-index">02</span>
+          <span class="project-main">
+            <span class="project-title">DEM Super-Resolution for High Mountain Asia</span>
+            <span class="project-stack">PyTorch · NASADEM · Sentinel-2 · Geospatial</span>
+          </span>
+          <span class="project-year">Recent</span>
+          <span class="project-icon" aria-hidden="true"></span>
+        </button>
+        <div class="project-panel" id="project-2">
+          <div class="project-clip">
+            <div class="project-content">
+              <ul class="highlights">
+                <li>3× digital elevation model super-resolution: upsampling a 30&nbsp;m NASADEM to 10&nbsp;m, conditioned on the co-registered Sentinel-2 RGB image.</li>
+                <li>Benchmarked over <strong>40 named sites</strong> across High Mountain Asia to test how well the model generalises across radically different terrain.</li>
+              </ul>
+              <p class="metric"><span class="metric-value">30 m → 10 m</span><span class="metric-label">3× upsampling · 40+ sites</span></p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <button class="project-head" type="button" aria-expanded="false" aria-controls="project-3">
+          <span class="project-index">03</span>
+          <span class="project-main">
+            <span class="project-title">Object Tracking for Football Analytics</span>
+            <span class="project-stack">PyTorch · OpenCV · NumPy · Pandas</span>
+          </span>
+          <span class="project-year">2023</span>
+          <span class="project-icon" aria-hidden="true"></span>
+        </button>
+        <div class="project-panel" id="project-3">
+          <div class="project-clip">
+            <div class="project-content">
+              <ul class="highlights">
+                <li>Achieved <strong>93% accuracy</strong> in automated match-statistics generation by building a real-time player-and-ball tracking pipeline on live footage.</li>
+                <li>Generated positional time-series visualisations adopted for tactical post-match analysis.</li>
+              </ul>
+              <p class="metric"><span class="metric-value">93%</span><span class="metric-label">tracking accuracy</span></p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <button class="project-head" type="button" aria-expanded="false" aria-controls="project-4">
+          <span class="project-index">04</span>
+          <span class="project-main">
+            <span class="project-title">Nepali Meal Recommendation System</span>
+            <span class="project-stack">Pandas · Scikit-learn · Django · PostgreSQL</span>
+          </span>
+          <span class="project-year">2023</span>
+          <span class="project-icon" aria-hidden="true"></span>
+        </button>
+        <div class="project-panel" id="project-4">
+          <div class="project-clip">
+            <div class="project-content">
+              <ul class="highlights">
+                <li>Built a hybrid content-based + collaborative filtering engine for Nepali cuisine, personalised by nutritional profile and user history.</li>
+                <li>Shipped a Django REST API with a <strong>sub-100&nbsp;ms</strong> average response time, serving real-time recommendations at scale.</li>
+              </ul>
+              <p class="metric"><span class="metric-value">&lt;100 ms</span><span class="metric-label">average API response</span></p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <button class="project-head" type="button" aria-expanded="false" aria-controls="project-5">
+          <span class="project-index">05</span>
+          <span class="project-main">
+            <span class="project-title">Darian Calendar</span>
+            <span class="project-stack">C++ · wxWidgets</span>
+          </span>
+          <span class="project-year">Personal</span>
+          <span class="project-icon" aria-hidden="true"></span>
+        </button>
+        <div class="project-panel" id="project-5">
+          <div class="project-clip">
+            <div class="project-content">
+              <ul class="highlights">
+                <li>A calendar application designed for <strong>Mars</strong> — tracking sols and Darian calendar dates in a native desktop interface.</li>
+                <li>Built in C++ with wxWidgets as an exercise in cross-platform GUI architecture and non-Gregorian timekeeping.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+{%- comment -%} ── Education ─────────────────────────────────────────────────── {%- endcomment -%}
+<section class="section section-soft" id="education">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-num">04</span> Education</p>
+      <h2>The <em>path</em> so far</h2>
+    </div>
+
+    <ol class="timeline">
+      <li class="tl-item reveal">
+        <span class="tl-dot" aria-hidden="true"></span>
+        <div class="tl-body">
+          <p class="tl-years">2025 — Present</p>
+          <h3>Master of Data Science</h3>
+          <p class="tl-place">School of Mathematical Sciences, Tribhuvan University</p>
+        </div>
+      </li>
+      <li class="tl-item reveal">
+        <span class="tl-dot" aria-hidden="true"></span>
+        <div class="tl-body">
+          <p class="tl-years">2019 — 2024</p>
+          <h3>Bachelor of Computer Engineering</h3>
+          <p class="tl-place">Pulchowk Campus — IOE, Tribhuvan University</p>
+        </div>
+      </li>
+      <li class="tl-item reveal">
+        <span class="tl-dot" aria-hidden="true"></span>
+        <div class="tl-body">
+          <p class="tl-years">2017 — 2019</p>
+          <h3>Higher Secondary Education (Science)</h3>
+          <p class="tl-place">Kathmandu Model Higher Secondary School</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+{%- comment -%} ── Beyond the screen ─────────────────────────────────────────── {%- endcomment -%}
+<section class="section" id="beyond">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-num">05</span> Beyond the screen</p>
+      <h2>Off the <em>clock</em></h2>
+      <p class="section-intro">What keeps me busy when I'm not training models.</p>
+    </div>
+
+    <div class="beyond-grid">
+      <div class="activities">
+        <article class="activity reveal">
+          <p class="activity-meta">2024</p>
+          <h3>Assistant Tour Leader &amp; Trekking Guide</h3>
+          <p>Earned <strong>98% client satisfaction</strong> across multiple trekking expeditions on Nepal's mountain routes, coordinating safety, logistics, and communication for international groups spanning 10+ nationalities.</p>
+        </article>
+        <article class="activity reveal">
+          <p class="activity-meta">Ongoing</p>
+          <h3>Guitarist — Live Performances</h3>
+          <p>Regular sets at local pubs and bars, collaborating with local musicians across varied genres.</p>
+        </article>
+        <article class="activity reveal">
+          <p class="activity-meta">Ongoing</p>
+          <h3>Gaming</h3>
+          <p>Strategy and sandbox worlds — most at home in Calradia with Mount &amp; Blade: Bannerlord.</p>
+        </article>
+        <article class="activity reveal">
+          <p class="activity-meta">Ongoing</p>
+          <h3>Book &amp; Movie Analysis</h3>
+          <p>Close readings of novels and films — structure, character, craft. I keep the notes.</p>
+        </article>
+        <article class="activity reveal">
+          <p class="activity-meta">Ongoing</p>
+          <h3>Songwriting</h3>
+          <p>Writing lyrics and melodies of my own, mostly acoustic.</p>
+        </article>
+        <article class="activity reveal">
+          <p class="activity-meta">Ongoing</p>
+          <h3>Video Editing</h3>
+          <p>Cutting, grading, and pacing personal and freelance video projects.</p>
+        </article>
+      </div>
+
+      <aside class="favorites reveal" aria-label="Favourites">
+        <p class="favorites-title">In rotation</p>
+        <dl>
+          <div class="fav"><dt>Book</dt><dd><em>The Tale for the Time Being</em><span>Ruth Ozeki</span></dd></div>
+          <div class="fav"><dt>Song</dt><dd><em>Stop This Train</em><span>John Mayer</span></dd></div>
+          <div class="fav"><dt>Movie</dt><dd><em>Before Sunrise</em><span>Linklater, 1995</span></dd></div>
+          <div class="fav"><dt>Artist</dt><dd><em>John Mayer</em><span>Guitar &amp; songwriting</span></dd></div>
+          <div class="fav"><dt>Manga</dt><dd><em>One Piece</em><span>Oda</span></dd></div>
+          <div class="fav"><dt>Anime</dt><dd><em>Samurai Champloo</em><span>Watanabe</span></dd></div>
+          <div class="fav"><dt>Game</dt><dd><em>Mount &amp; Blade: Bannerlord</em><span>TaleWorlds</span></dd></div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+{%- comment -%} ── Writing ───────────────────────────────────────────────────── {%- endcomment -%}
+<section class="section section-soft" id="writing">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-num">06</span> Writing</p>
+      <h2>Latest <em>notes</em></h2>
+    </div>
+
+    {%- if site.posts.size > 0 -%}
+    <div class="post-cards">
+      {%- for post in site.posts limit: 2 -%}
+      <a class="post-card reveal" href="{{ post.url | relative_url }}">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d %b %Y' }}</time>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt }}</p>
+        <span class="read-link">Read the note</span>
+      </a>
+      {%- endfor -%}
+    </div>
+    {%- else -%}
+    <p class="muted reveal">No posts yet — check back soon.</p>
+    {%- endif -%}
+
+    <p class="section-more reveal">
+      <a class="btn btn-ghost" href="{{ '/blog/' | relative_url }}">All writing</a>
+    </p>
+  </div>
+</section>
+
+{%- comment -%} ── Contact ──────────────────────────────────────────────────── {%- endcomment -%}
+<section class="section contact" id="contact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-num">07</span> Contact</p>
+      <h2>Let's <em>talk</em>.</h2>
+      <p class="section-intro">
+        Whether it's a collaboration, a role, or a question about something I've written —
+        my inbox is open.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-primary reveal">
+        <p class="contact-label">Email</p>
+        <a class="contact-email" href="mailto:thakbishal7@gmail.com">thakbishal7@gmail.com</a>
+        <button class="copy-btn" type="button" data-copy="thakbishal7@gmail.com">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          Copy address
+        </button>
+      </div>
+
+      <ul class="contact-links reveal" style="--d:.1s">
+        <li>
+          <a href="https://github.com/Bishalai" target="_blank" rel="noopener">
+            <span class="contact-link-name">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              GitHub
+            </span>
+            <span class="contact-link-handle">Bishalai ↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/Bishalai" target="_blank" rel="noopener">
+            <span class="contact-link-name">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+              LinkedIn
+            </span>
+            <span class="contact-link-handle">Bishalai ↗</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

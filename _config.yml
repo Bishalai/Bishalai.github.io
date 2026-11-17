@@ -1,0 +1,30 @@
+# ── Site settings ─────────────────────────────────────────────────────────────
+# If you ever host this under a project repo (e.g. github.com/you/repo
+# served at https://you.github.io/repo), change baseurl to "/repo"
+title: Bishal Khand Thakuri
+tagline: ML Engineer & Data Scientist
+description: >-
+  Personal site and portfolio of Bishal Khand Thakuri — machine learning
+  engineer and data scientist based in Kathmandu, Nepal, working on
+  generative AI, computer vision, and applied ML systems.
+url: "https://bishalai.github.io"
+baseurl: ""
+
+author: Bishal Khand Thakuri
+lang: en
+
+# ── Build settings ────────────────────────────────────────────────────────────
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Blog posts live in /_posts/ and are served under /blog/<slug>/
+permalink: /blog/:title/
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore
